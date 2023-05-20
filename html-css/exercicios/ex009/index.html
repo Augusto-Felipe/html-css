@@ -4,36 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-            num = int(input('Digite um número:'))
-            if num % 2 == 0:
-            print(f'O numero {num} é PAR')
-            else:
-            print(f'O numero {num} é IMPAR')
-            print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Jeff Noble, no seu livro HTML para leigos: </p>
-    <blockquote>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-         perspiciatis commodi dolore consectetur ipsam totam expedita 
-         nihil earum harum tenetur neque, doloribus illo aspernatur ut 
-         impedit voluptates at! Beatae, autem!
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e 
-        <abbr title="Cascading Style Sheet">CSS</abbr>. Estou adorando.</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>    
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="A" start="4">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Estudar</li>
+        <li>Almoçar</li>
+        <li>Estudar</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square">
+        <li>Comprar pão</li>
+        <li>Comprar leite</li>
+        <li>Comprar queijo</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a">
+            <li>Javascript</li>
+            <li>Swift</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ol>
+    </ol>
+    <h2>Misturando Listas</h2>
+    <h3>Meus jogos favoritos</h3>
+    <ul>
+        <li>PC</li>
+        <ol>
+            <li>League of Legends</li>
+            <li>World of Warcraft</li>
+            <ol>
+                <li>Wrath of the Lich King</li>
+                <li>The Burning Crusade</li>
+                <li>Cataclysm</li>
+            </ol>
+            <li>Magic The Gathering</li>
+            <li>Fifa</li>
+        </ol>
+        <li>Console</li>
+        <ol type="I">
+            <li>Crash</li>
+            <li>Shenmue</li>
+        </ol>
+    </ul>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação para a criação de um site.</dd>
+    </dl>
 </body>
 </html>
